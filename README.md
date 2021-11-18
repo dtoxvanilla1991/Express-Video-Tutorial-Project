@@ -1,7 +1,7 @@
 ## Table of contents
-* [General Information] (#general-info)
-* [Technologies utilized] (#technologies)
-* [How to set it up] (#setup)
+* [General info](#general-info)
+* [Technologies utilized](#technologies)
+* [How to set it up](#setup)
 ___
 
 ## General info
