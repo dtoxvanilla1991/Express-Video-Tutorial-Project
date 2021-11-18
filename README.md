@@ -1,7 +1,7 @@
 ## Table of contents
-* [General info](#general-info)
-* [Technologies utilized](#technologies)
-* [How to set it up](#setup)
+* [General info](#general-info "General information")
+* [Technologies utilized](#technologies "Technologies used")
+* [Setup](#setup "Project setup to view")
 ___
 
 ## General info
