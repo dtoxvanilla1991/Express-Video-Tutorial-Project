@@ -13,7 +13,6 @@ Those interested are able to register and after signing in, enroll/unenroll to a
 
 Project utilizes:
 * HTML, CSS, JS
-* Sammy
 * Handlebars
 * Express.js
 * MongoDB & Mongoose
