@@ -16,7 +16,10 @@ Project utilizes:
 * Sammy
 * Handlebars
 * Express.js
-* Kinvey
+* MongoDB & Mongoose
+* Uniqid
+* Bcrypt
+* Validator
 
 ## Setup
 To run this project, install it locally using npm:
