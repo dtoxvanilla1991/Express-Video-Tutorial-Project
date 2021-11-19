@@ -1,0 +1,21 @@
+<h1>{{name}}</h1>
+<img class="card-img-top img-fluid" src="{{image}}" alt="Card image cap" width="100">
+<div class="details">
+  <p><span>Description:</span> {{description}}</p>
+  <div class="card-body text-inline">
+    <a class="btn" href="/">Back</a>
+    {{#if isAuth}}
+    <form action="/enroll/{{id}}" method="POST" class="btn btn-sm">
+      <input type="submit" class="btn btn-sm" style=" color: rgb(190, 116, 4)" value="ENROLL NOW">
+    </form>
+    {{/if}}
+    {{#if owner}}
+    <a class="btn btn-sm" style=" color: rgb(156, 80, 9)" href="/edit/{{id}}">Edit</a>
+
+    <form action="/delete/{{id}}" method="POST" class="btn btn-sm">
+      <input type="submit" class="btn btn-sm" style=" color: rgb(173, 5, 5)" value="DELETE">
+    </form>
+
+    {{/if}}
+  </div>
+</div>

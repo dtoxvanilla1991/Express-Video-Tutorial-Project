@@ -1,0 +1,33 @@
+
+
+<div class="container">
+    <h2>Create a course</h2>
+  <div class="row justify-content-center align-items-center ml-auto">
+    <form class="text-center border border-light p-5 col-6" action="/create" method="POST">
+        <div>
+          <label class="input-label" for="courseName">Create Title</label>
+          <input type="text" class="form-control" id="courseName" placeholder="Type the name of your course"
+            name="name">
+        </div>
+      <div>
+        <label class="input-label" for="Course Description">Course Description</label>
+        <textarea class="form-control form-control-sm" id="description" rows="4" name="description"
+          placeholder="Write your description"></textarea>
+      </div>
+        <div>
+          <label class="input-label" for="courseName">Course Image</label>
+          <input type="text" class="form-control" id="courseLogo" placeholder="Your course image" name="image">
+        </div>
+
+      <div class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="customCheck1" name="publicView">
+        <label class="input-label" class="custom-control-label" for="customCheck1">Public</label>
+      </div>
+      <div>
+        <input class="form-control form-control-sm text-center" type="text"
+          placeholder="You are the sole owner of the course" readonly>
+      </div>
+        <button type="submit" class="btn p-2 mb-2 bg-warning text-dark mt-3">Create a Course</button>
+    </form>
+  </div>
+</div>

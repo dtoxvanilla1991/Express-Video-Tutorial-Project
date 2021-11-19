@@ -1,0 +1,29 @@
+  <h3 class="display-4 text-center">Video Tutorials</h3>
+<h4 class="text-center">Start Self-Study Today: It'll Change Your Life</h4>
+<h5 class="text-center">Top Courses</h5>
+<div class="container mt-3">
+  <div class="row">
+
+    <div class="card-deck d-flex justify-content-center">
+      {{#each courses}}
+      <div class="card m-1">
+        <img class="card-img-top" src="{{image}}" alt="Card image cap" width="400">
+        <div class="card-body">
+          <h4 class="card-title">{{name}}</h4>
+        </div>
+        <div class="card-footer">
+          <a class="btn btn-sm" href="/details/{{id}}">Details</a>
+          <a class="btn btn-sm float-right" style=" color: rgb(231, 124, 24)" href="/login">Enroll now!</a>
+        </div>
+
+      </div>
+      {{else}}
+
+
+      <h5 style="text-align: center">No courses available...<a href="/login"> add one now!</a>
+      </h5>
+    </div>
+  </div>
+
+  {{/each}}
+</div>

@@ -1,0 +1,27 @@
+
+<div class="container">
+        <h2>Edit a course</h2>
+  <div class="row justify-content-center align-items-center ml-auto">
+    <form class="text-center border border-light p-5 col-6" action="/edit/{{id}}" method="POST">
+        <div>
+          <label class="input-label" for="courseName">Edit Title</label>
+          <input type="text" class="form-control" id="courseName" name="name" value="{{name}}">
+        </div>
+      <div>
+        <label class="input-label" for="Course Description">Edit Description</label>
+        <textarea class="form-control form-control-sm" id="description" rows="4" name="description">{{description}}</textarea>
+      </div>
+        <div>
+          <label class="input-label" for="courseName">Edit Course Image</label>
+          <input type="text" class="form-control" id="courseLogo" value="{{image}}" placeholder="Place new course image here.." name="image">
+
+        </div>
+
+      <div>
+        <input class="form-control form-control-sm text-center" type="text"
+          placeholder="You are the sole owner of the course" readonly>
+      </div>
+        <button type="submit" class="btn p-2 mb-2 bg-warning text-dark mt-3">Finalize</button>
+    </form>
+  </div>
+</div>

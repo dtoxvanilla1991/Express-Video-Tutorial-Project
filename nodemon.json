@@ -1,0 +1,9 @@
+{
+    "env": {
+        "PORT": 4500,
+        "NODE_ENV": "development",
+        "MONGO_USER": "dtoxvanilla",
+        "MONGO_PASS": "amazing",
+        "MONGO_DATABASE": "videocourses"
+    }
+}

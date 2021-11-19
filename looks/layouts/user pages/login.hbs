@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="row justify-content-center align-items-center ml-auto">
+<form class="text-center border border-light p-5 col-3" action="/login" method="POST">
+    <div class="textarea">
+        <label for="username">Username</label>
+        <input type="text" class="form-control" placeholder="Username" name="username" value="">
+    </div>
+    <div class="textarea">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" placeholder="Password" name="password" value="">
+    </div>
+
+    <button type="submit" class="btn p-2 mb-2 bg-warning text-dark mt-3">Login</button>
+</form>
+<p class="text-center">Forget your password?<a href="/reset" class="link">Reset password</a></p>
+<p class="text-center">Don't have an account?<a href="/register" class="link">Sign up!</a></p>
+</div>
+</div>
